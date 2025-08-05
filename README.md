@@ -49,8 +49,17 @@ Anmol is a final-year B.Tech student in Computer Science (Data Science) whose wo
 ![Architecture](Architecture.png)
 
 
-
 -----
+
+
+### Hackathon and Participations
+* **Google Cloud Agentic AI Day Hackathon 2025 — City Pulse (Top 850 of 9 100+ teams, Guinness-certified as the world’s largest generative-AI hackathon)**
+City Pulse addressed real-time “city-data overload” by unifying social-media posts, citizen reports and IoT telemetry into a self-evolving urban-intelligence dashboard. Gemini multimodal agents enrich each raw signal with geotags, sentiment and timestamps; a Qdrant-backed vector matcher (cosine similarity > 0.5) deduplicates near-identical items before a LangGraph feedback loop forecasts cascading events such as grid instabilities or traffic jams. The end-to-end stack—Gemini APIs, LangChain / LangGraph orchestration, FastAPI micro-services and a Firebase-hosted Google Maps UI—streams live, predictive alerts while continually retraining on user corrections. Judges cited the architecture’s adaptive learning loop and city-scale applicability, ranking City Pulse in the top 850 teams (≈ 9 percentile) out of more than 9 100 nationwide submissions.
+
+
+* **Adobe India Hackathon 2025  (Top 4 000 teams, about 4.6 percent acceptance)**
+Roughly 262 159 developers signed up and, with a three-member cap, could form about 87 000 teams. The challenge asked Round 1 entrants to (a) generate an offline, CPU-only JSON outline of a PDF’s Title and H1–H3 hierarchy and (b) rank the most relevant sections across 3 to 10 PDFs for a given persona and job-to-be-done.
+The proposed approach fine-tunes **LayoutLMv3-base** [Huggingface](https://huggingface.co/microsoft/layoutlmv3-base) on a heuristically relabelled slice of **DocLayNet** [Doclaynet](https://huggingface.co/datasets/pierreguillou/DocLayNet-base). Pre-processing scripts preserve heading order and create supervised labels, then the model is fine-tuned in the repository **Finetune-Layoutlmv3-base** [Finetuned Model](https://github.com/anmol52490/Finetune-Layoutlmv3-base). A companion repository, **Adobe-Hackathon** [1b](https://github.com/aaryanrn/Adobe-Hackathon), packages a Docker image that chunks each document, embeds sections, scores cosine similarity against persona queries and outputs an importance-ranked JSON. This concept secured a place in the top 4 000 teams invited to present.
 
 
 ### **III. Technical Skills**
