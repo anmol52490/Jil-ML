@@ -46,8 +46,6 @@ Anmol is a final-year B.Tech student in Computer Science (Data Science) whose wo
 ### Research & Publications — In Progress
 **A LangGraph-Driven Knowledge-Assessment System for Lesson-Plan Generation** (manuscript in preparation) presents an agent-orchestrated tutor that begins with a diagnostic interview, scores each learner response through Gemini 1.5 Flash, infers a persona, and then iteratively composes and validates a personalised lesson plan; the end-to-end stack—FastAPI micro-services steering a LangGraph finite-state workflow over Qdrant and MongoDB—is open-sourced at [GitHub](https://github.com/Med-Time/Viveka), with the current paper draft available at [Drive](https://drive.google.com/drive/folders/1pn8arEtyn8ZvX-vbeM5i7VhQlePiAb_K?usp=sharing), and early evaluations across 50 + simulated sessions report 92 % precision on multiple-choice scoring, 85 % accuracy on open-ended answers, 95 % prerequisite-correct lesson sequencing, and a median end-to-end latency of 2.3 s, with submission to a peer-reviewed AI-in-education venue targeted for Q3 2025 .
 
-![Architecture](Architecture.png)
-
 
 -----
 
