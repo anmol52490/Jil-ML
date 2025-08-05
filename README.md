@@ -53,7 +53,7 @@ Anmol is a final-year B.Tech student in Computer Science (Data Science) whose wo
 
 
 ### Hackathon and Participations
-* **Google Cloud Agentic AI Day Hackathon 2025 — City Pulse (Top 850 of 9 100+ teams, Guinness-certified as the world’s largest generative-AI hackathon)**
+* **Google Cloud Agentic AI Day Hackathon 2025 — City Pulse (Top 850 of 9 100+ teams, Guinness-certified as the world’s largest generative-AI hackathon)[GitHub](https://github.com/anmol52490/Google-Cloud-Agentic-AI-Day.git)**
 City Pulse addressed real-time “city-data overload” by unifying social-media posts, citizen reports and IoT telemetry into a self-evolving urban-intelligence dashboard. Gemini multimodal agents enrich each raw signal with geotags, sentiment and timestamps; a Qdrant-backed vector matcher (cosine similarity > 0.5) deduplicates near-identical items before a LangGraph feedback loop forecasts cascading events such as grid instabilities or traffic jams. The end-to-end stack—Gemini APIs, LangChain / LangGraph orchestration, FastAPI micro-services and a Firebase-hosted Google Maps UI—streams live, predictive alerts while continually retraining on user corrections. Judges cited the architecture’s adaptive learning loop and city-scale applicability, ranking City Pulse in the top 850 teams (≈ 9 percentile) out of more than 9 100 nationwide submissions.
 
 
